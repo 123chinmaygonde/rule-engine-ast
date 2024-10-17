@@ -2,10 +2,12 @@ const express  = require("express")
 const bodyParser = require("body-parser")
 const mongoose = require("mongoose")
 const RuleRoutes = require('./routes/RuleRoutes')
+const cors = require("cors")
 
 const app = express()
 app.use(express.json())
 app.use(bodyParser.json())
+app.use(cors())
 
 const PORT = process.env.PORT || 3000
 

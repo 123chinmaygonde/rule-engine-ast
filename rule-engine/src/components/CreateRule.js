@@ -7,7 +7,7 @@ const CreateRule = () => {
 
     const createRule = async () => {
         try {
-            const response = await fetch('/api/rules/create', {
+            const response = await fetch('http://localhost:3000/api/rules/create', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ ruleString, ruleName })
