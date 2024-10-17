@@ -36,7 +36,11 @@ MongoDB (for storing rules and application metadata)
 # Setup Instructions
 1) git clone https://github.com/123chinmaygonde/rule-engine-ast
 2) npm install
-3) npm start/npm run dev
+3) cd rule-engine-ast
+4) cd backend
+5) npm run dev
+6) cd rule-engine
+7) npm start
 
 
 
